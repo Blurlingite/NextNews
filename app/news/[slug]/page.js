@@ -1,9 +1,15 @@
+import { notFound } from "next/navigation";
 import { DUMMY_NEWS } from "@/dummy-news";
 
 export default function NewsDetailPage({ params }) {
   const newsSlug = params.slug; // the slug comes from the dynamic url which is indicated by the folder [slug]
 
   const newsItem = DUMMY_NEWS.find((newsItem) => newsItem.slug === newsSlug);
+
+  if (!newsItem) {
+    notFound(); // shows the closest not-found.js page when a news item can't be found
+  }
+
   return (
     <article className="news-article">
       <header>
