@@ -6,7 +6,7 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
-(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([["app/archive/@archive/page"],{
+(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([["app/archive/@archive/[year]/page"],{
 
 /***/ "(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fblurlingite%2FDocuments%2FNextNews%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Flink.js&server=false!":
 /*!*************************************************************************************************************************************************************************************************************!*\
