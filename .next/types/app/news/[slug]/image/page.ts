@@ -1,8 +1,8 @@
-// File: /Users/blurlingite/Documents/NextNews/app/page.js
-import * as entry from '../../../app/page.js'
+// File: /Users/blurlingite/Documents/NextNews/app/news/[slug]/image/page.js
+import * as entry from '../../../../../../app/news/[slug]/image/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../app/page.js')
+type TEntry = typeof import('../../../../../../app/news/[slug]/image/page.js')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{
