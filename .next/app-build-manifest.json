@@ -21,6 +21,11 @@
       "static/chunks/main-app.js",
       "static/chunks/app/news/page.js"
     ],
+    "/news/[slug]/@modal/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/news/[slug]/@modal/page.js"
+    ],
     "/news/[slug]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -35,11 +40,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/news/[slug]/layout.js"
-    ],
-    "/news/[slug]/@modal/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/news/[slug]/@modal/page.js"
     ],
     "/news/[slug]/@modal/(.)image/page": [
       "static/chunks/webpack.js",
