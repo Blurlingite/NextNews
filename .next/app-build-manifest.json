@@ -1,19 +1,9 @@
 {
   "pages": {
-    "/archive/@archive/[[...filter]]/error": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/archive/@archive/[[...filter]]/error.js"
-    ],
-    "/archive/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/archive/layout.js"
-    ],
-    "/archive/@latest/default": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/archive/@latest/default.js"
+      "static/chunks/app/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -26,25 +16,35 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
-    "/archive/@archive/[[...filter]]/page": [
+    "/news/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/archive/@archive/[[...filter]]/page.js"
-    ],
-    "/news/[slug]/not-found": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/news/[slug]/not-found.js"
+      "static/chunks/app/news/page.js"
     ],
     "/news/[slug]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/news/[slug]/page.js"
     ],
-    "/news/[slug]/image/page": [
+    "/news/[slug]/not-found": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/news/[slug]/image/page.js"
+      "static/chunks/app/news/[slug]/not-found.js"
+    ],
+    "/news/[slug]/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/news/[slug]/layout.js"
+    ],
+    "/news/[slug]/@modal/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/news/[slug]/@modal/page.js"
+    ],
+    "/news/[slug]/@modal/(.)image/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/news/[slug]/@modal/(.)image/page.js"
     ]
   }
 }
